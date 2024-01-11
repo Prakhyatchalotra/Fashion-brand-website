@@ -18,7 +18,7 @@ body {
     gap: 20px;
     justify-content: space-evenly;
     align-items: center;
-    background-image: url("bg.jpg");
+    background-image: url("images/bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -39,25 +39,25 @@ body {
 }
 
 .overcoats {
-    background-image: url("overcoat_men.jpg");
+    background-image: url("images/overcoat_men.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .jackets {
-    background-image: url("jacket-men.png");
+    background-image: url("images/jacket-men.png");
     background-position: center;
     background-size: cover;
 }
 
 .lowers{
-    background-image: url("lower-men.jpg");
+    background-image: url("images/lower-men.jpg");
     background-position: center;
     background-size: cover;
 }
 
 .t-shirts {
-    background-image: url("t-shirts-men.jpg");
+    background-image: url("images/t-shirts-men.jpg");
     background-position: center;
     background-size: cover;
     align-items: center;
