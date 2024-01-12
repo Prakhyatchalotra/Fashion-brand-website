@@ -15,3 +15,12 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector('a[href=".kid"]').addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(".kid").scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
