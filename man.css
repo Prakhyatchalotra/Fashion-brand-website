@@ -22,6 +22,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .overcoats, .jackets, .lowers, .t-shirts {
@@ -38,26 +39,51 @@ body {
     height: 410px;
 }
 
-.overcoats {
+.man .overcoats {
     background-image: url("images/overcoat_men.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.jackets {
+.women .overcoats {
+    background-image: url("images/overcoat-women.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.man .jackets {
     background-image: url("images/jacket-men.png");
     background-position: center;
     background-size: cover;
 }
 
-.lowers{
+.women .jackets {
+    background-image: url("images/jacket-women.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.man .lowers{
     background-image: url("images/lower-men.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.t-shirts {
+.women .lowers{
+    background-image: url("images/lower-women.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.man .t-shirts {
     background-image: url("images/t-shirts-men.jpg");
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.women .t-shirts {
+    background-image: url("images/t-shirts-women.jpg");
     background-position: center;
     background-size: cover;
     align-items: center;

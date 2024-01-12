@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     min-height: 100vh;
     min-width: 100vw;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     background-color: white;
     align-items: center;
 }
@@ -20,23 +21,26 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 header {
-    min-height: 100vh;
+    min-height: fit-content;
     align-items: center;
 }
+
 .navigation {
     padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
+
 .navigation_ul {
     display: flex;
     gap: 40px;
     list-style-type: none;
     align-items: center;
 }
+
 .search_bar {
     min-width: 250px;
     min-height: 20px;
@@ -44,10 +48,12 @@ header {
     gap: 0px;
     border: none;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 .navigation_right {
     font-size: 14px;
     position: fixed;
@@ -56,6 +62,7 @@ a {
     top: 35px;
     left: 750px;
 }
+
 button {
     cursor: pointer;
     padding: 6.5px;
@@ -63,6 +70,7 @@ button {
     font-size: 10px;
     border: none;
 }
+
 .for {
     display: flex;
     list-style-type: none;
@@ -72,18 +80,20 @@ button {
     justify-content: space-evenly;
     text-align: center;
 }
+
 .top_nav:hover {
     font-size: 17px;
     border: 1px solid black;
     border-radius: 5px;
     font-weight: bold;
-    background-color:rgb(245, 241, 235);
-
+    background-color: rgb(245, 241, 235);
 }
+
 .logo_part {
     display: flex;
     flex-direction: column;
 }
+
 .logo_part .logo {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 110px;
@@ -95,12 +105,12 @@ button {
 }
 
 button:hover {
-    background-color:rgb(245, 241, 235);
+    background-color: rgb(245, 241, 235);
     font-weight: bold;
 }
 
-.s1, .s2{
-    font-family:'Courier New', Courier, monospace;
+.s1 {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     font-weight: lighter;
     margin-top: 50px;
@@ -112,6 +122,29 @@ button:hover {
 footer {
     background-color: white;
     padding: 20px;
+    margin-top: 46px;
+}
+
+.privacy-policy {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h1,
+.privacy-policy h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-us p,
+.privacy-policy p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 .footer-content {
@@ -138,7 +171,6 @@ footer {
     display: flex;
     gap: 10px;
 }
-
 
 .footer-links li {
     margin-right: 20px;
